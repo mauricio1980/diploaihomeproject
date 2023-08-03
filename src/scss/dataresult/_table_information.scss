@@ -1,0 +1,74 @@
+@import '../variables';
+
+.table_information_bg{
+    background-color: $frame-bg-color;
+}
+
+.title{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #000000;
+}
+
+.text{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color:  #49454F;
+
+}
+
+.box_action{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.box_action_button{
+    align-self: auto;
+}
+
+.action{
+    width: 72px;
+    height: 13px;
+    top: 402px;
+    left: 148px;
+    color: #6750A4;
+}
+
+
+.table_th{
+    padding: 10px;
+    border-bottom: 2px solid #49454F;
+    text-align: center;
+}
+
+.table_td_des{
+    padding: 10px;
+    border-bottom: 2px solid #49454F;
+    text-align: left;
+}
+
+.table_td{
+    padding: 10px;
+    border-bottom: 2px solid #49454F;
+    text-align: center;
+}  
+.table_checkbox{
+    width: 18px;
+    height: 18px;
+    top: 327px;
+    left: 253px;
+    border-radius: 2px;
+    border: 1px;
+    gap: 10px;
+    background-color: #6750A4;
+    border-color: 1px solid #6750A4;
+}

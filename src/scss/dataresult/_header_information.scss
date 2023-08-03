@@ -1,0 +1,23 @@
+@import '../variables';
+
+.title{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: #000000;
+}
+
+.text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color:  #49454F;
+    align-self: center;
+    margin-bottom: 24px;
+}

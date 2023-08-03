@@ -1,0 +1,20 @@
+@import '../variables';
+
+.main-container{
+    margin-bottom: 150px;
+}
+
+.container-grid{
+    display: grid;
+    gap: 25px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, auto-fit);
+    background-color: $frame-bg-color;
+    border-radius: 28px;
+    max-width: 600px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    //margin-bottom: 24px;
+}
